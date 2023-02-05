@@ -1,0 +1,11 @@
+
+.featured{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.featured .container{
+    width: 100%;
+    top: 15%;
+    position: relative;
+    height: 85%;
+}

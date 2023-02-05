@@ -1,0 +1,93 @@
+body{
+    background:linear-gradient(to bottom, rgba(0,0,0,0),#151515);
+    background-image:url('indexAssets/img/log\ in.jpg');
+    color: rgb(148, 145, 145);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    color: black;
+    align-items: flex-end;
+    
+}
+
+.form{
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:50px 70px;
+
+}
+
+.username{
+    margin: 20px;
+}
+
+input{
+    border: solid  rgb(148, 145, 145) 2px;
+    outline: none;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input:focus{
+    transition: all .5s ease-in;
+    border: 3px solid rgb(243, 131, 118);
+}
+button{
+    cursor: pointer;
+    color: white;
+    display: block;
+    padding: 10px 75px;
+    margin-top: 20px;
+    background-color: rgb(248, 103, 87);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+
+button:hover{
+    background-color: rgb(243, 131, 118);
+
+}
+
+hr{
+    margin-top: 25px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+span{
+    margin: 3px 0px;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+    background: white;
+}
